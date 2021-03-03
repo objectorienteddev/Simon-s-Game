@@ -9,6 +9,20 @@ body {
   margin:  3%;
   color: #FEF2BF;
 }
+.refresh-game{
+  width: 10rem;
+  height: 5rem;
+  background-color: rgb(206, 206, 45);
+  border: solid 5px white;
+  outline: none;
+  transition: 400ms;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+.refresh-game:hover{
+  background-color: white;
+}
 
 .container {
   display: block;

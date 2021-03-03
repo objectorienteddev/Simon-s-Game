@@ -66,7 +66,7 @@ function nextSequence() {
 
 //play sound on click
 function playSound(name) {
-  var audio = new Audio("/sounds/" + name + ".mp3");
+  var audio = new Audio("sounds/" + name + ".mp3");
   audio.play();
 }
 

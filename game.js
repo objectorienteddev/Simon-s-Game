@@ -34,7 +34,7 @@ function checkAnswer(currentLevel) {
     playSound("wrong");
     //add class on game over for red background
     $("body").addClass("game-over");
-    $("#level-title").text("Game Over, Press Any Key to Restart");
+    $("#level-title").text("Game Over, Press button to Restart");
     setTimeout(function () {
       $("body").removeClass("game-over");
     }, 200);
